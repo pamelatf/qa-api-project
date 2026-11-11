@@ -1,0 +1,26 @@
+{
+  "name": "qa-api-project",
+  "version": "1.0.0",
+  "description": "Projeto de testes automatizados de API REST",
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "jest",
+    "supertest",
+    "qa"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "@faker-js/faker": "^9.5.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 30000
+  }
+}
